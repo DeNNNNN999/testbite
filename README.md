@@ -257,35 +257,7 @@ GET    /api/stats/order-times - По времени заказов
 - **Оптимизация** - ленивая загрузка, кеширование
 - **Аналитика** - детальные отчеты и графики
 
-## 📁 Структура проекта
 
-```
-tastebite/
-├── backend/
-│   ├── src/
-│   │   ├── config/         # Конфигурация БД
-│   │   ├── controllers/    # Бизнес-логика
-│   │   ├── middleware/     # JWT, ролевая модель
-│   │   ├── models/         # Модели Sequelize
-│   │   ├── routes/         # API маршруты
-│   │   ├── seeders/        # Тестовые данные
-│   │   └── server.js       # Точка входа
-│   ├── uploads/            # Загруженные файлы
-│   └── package.json
-│
-└── frontend/
-    ├── src/
-    │   ├── components/     # Переиспользуемые компоненты
-    │   ├── contexts/       # AuthContext, CartContext
-    │   ├── pages/          # Страницы приложения
-    │   │   ├── client/     # Клиентские страницы
-    │   │   ├── staff/      # Страницы сотрудников
-    │   │   └── admin/      # Админские страницы
-    │   ├── services/       # API сервисы
-    │   ├── utils/          # Вспомогательные функции
-    │   └── App.jsx         # Главный компонент
-    └── package.json
-```
 
 ## 🚀 Deployment
 
@@ -311,9 +283,6 @@ tastebite/
 
 MIT License - используйте код как хотите!
 
-## 👨‍💻 Автор
-
-Senior Full-Stack JS Developer с 12-летним опытом
 
 ---
 
